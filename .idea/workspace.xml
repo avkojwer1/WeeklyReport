@@ -63,7 +63,48 @@
     <favorites_list name="WeeklyReport" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ExceptionLogDaoTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/test/weeklyreport/ExceptionLogDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="16" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="760">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExceptionLogDao.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/cn/weeklyreport/dao/ExceptionLogDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="16" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="800">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="14" selection-start="991" selection-end="991" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="420">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="42" selection-start="638" selection-end="638" vertical-scroll-proportion="-1.9230769" vertical-offset="1315" max-vertical-offset="2800">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -74,7 +115,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/cn/weeklyreport/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/weeklyreport/cn/weeklyreport/dao/IExceptionLogDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/test/weeklyreport/dao.java" />
@@ -83,6 +123,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/weeklyreport/model/ExceptionLog.java" />
         <option value="$PROJECT_DIR$/src/test/java/cn/test/weeklyreport/ExceptionLogDaoTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
       </list>
     </option>
   </component>
@@ -165,7 +207,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,6 +325,28 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeeklyReport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeeklyReport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -376,7 +440,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -403,6 +467,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\MyGitProject\WeeklyReport\src\main\resources" />
+      <recent name="F:\Java\MyGitProject\WeeklyReport\src\main\webapp\WEB-INF" />
+      <recent name="F:\Java\MyGitProject\WeeklyReport\src\main\resources\META-INF" />
       <recent name="F:\Java\WeeklyReport\src\main\resources" />
     </key>
   </component>
@@ -874,15 +941,16 @@
       <workItem from="1409648794635" duration="4919000" />
       <workItem from="1409722040099" duration="537000" />
       <workItem from="1409722595543" duration="9856000" />
+      <workItem from="1409816590105" duration="2451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15312000" />
+    <option name="totallyTimeSpent" value="17763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -906,8 +974,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24601175" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22174536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22174536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28456375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1020,83 +1088,47 @@
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/microsoft/sqlserver/sqljdbc4/4.0/sqljdbc4-4.0.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="331">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="21" selection-start="2717" selection-end="2740" vertical-scroll-proportion="0.0" vertical-offset="1538" max-vertical-offset="2540">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="331" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.2.0.RELEASE/spring-data-jpa-1.2.0.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="169" selection-end="317" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="500">
-          <folding />
-        </state>
+        <state line="6" column="17" selection-start="169" selection-end="317" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="500" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.1.2.RELEASE/spring-orm-3.1.2.RELEASE.jar!/org/springframework/orm/jpa/JpaTransactionManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="157" selection-end="459" vertical-scroll-proportion="0.3058104" vertical-offset="0" max-vertical-offset="2360">
-          <folding />
-        </state>
+        <state line="6" column="13" selection-start="157" selection-end="459" vertical-scroll-proportion="0.3058104" vertical-offset="0" max-vertical-offset="2360" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.0.RELEASE/spring-beans-3.2.0.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="10972" selection-end="10972" vertical-scroll-proportion="0.6895425" vertical-offset="2349" max-vertical-offset="2680">
-          <folding />
-        </state>
+        <state line="129" column="0" selection-start="10972" selection-end="10972" vertical-scroll-proportion="0.6895425" vertical-offset="2349" max-vertical-offset="2680" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.0.RELEASE/spring-web-3.2.0.RELEASE.jar!/org/springframework/web/context/WebApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="413" selection-end="413" vertical-scroll-proportion="0.5015674" vertical-offset="0" max-vertical-offset="440">
-          <folding />
-        </state>
+        <state line="9" column="47" selection-start="413" selection-end="413" vertical-scroll-proportion="0.5015674" vertical-offset="0" max-vertical-offset="440" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/3.2.0.RELEASE/spring-test-3.2.0.RELEASE.jar!/org/springframework/test/web/servlet/setup/MockMvcBuilders.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="152" selection-start="409" selection-end="409" vertical-scroll-proportion="0.4117647" vertical-offset="34" max-vertical-offset="340">
-          <folding />
-        </state>
+        <state line="9" column="152" selection-start="409" selection-end="409" vertical-scroll-proportion="0.4117647" vertical-offset="34" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/3.2.0.RELEASE/spring-test-3.2.0.RELEASE.jar!/org/springframework/test/context/web/WebAppConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="397" selection-end="397" vertical-scroll-proportion="0.41753653" vertical-offset="0" max-vertical-offset="479">
-          <folding>
-            <element signature="e#0#476#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="10" column="18" selection-start="397" selection-end="397" vertical-scroll-proportion="0.41753653" vertical-offset="0" max-vertical-offset="479" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/3.1.2.RELEASE/spring-orm-3.1.2.RELEASE.jar!/org/springframework/orm/jpa/EntityManagerFactoryUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="3367" selection-end="3367" vertical-scroll-proportion="0.78651685" vertical-offset="570" max-vertical-offset="1040">
-          <folding />
-        </state>
+        <state line="47" column="0" selection-start="3367" selection-end="3367" vertical-scroll-proportion="0.78651685" vertical-offset="570" max-vertical-offset="1040" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.32188842" vertical-offset="530" max-vertical-offset="1000">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/cn/weeklyreport/dao/ExceptionLogDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="477" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="296" max-vertical-offset="800">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="35" column="0" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.32188842" vertical-offset="530" max-vertical-offset="1000" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/model/ExceptionLog.java">
@@ -1120,9 +1152,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/test/weeklyreport/ExceptionLogDaoTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="34" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.6031746" vertical-offset="256" max-vertical-offset="760">
+        <state line="17" column="74" selection-start="1257" selection-end="1279" vertical-scroll-proportion="0.66170216" vertical-offset="29" max-vertical-offset="640">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/cn/weeklyreport/dao/ExceptionLogDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="16" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="800">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1131,14 +1170,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="86" selection-start="360" selection-end="360" vertical-scroll-proportion="0.12526096" vertical-offset="0" max-vertical-offset="479">
+        <state line="15" column="14" selection-start="991" selection-end="991" vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/test/weeklyreport/ExceptionLogDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="74" selection-start="1257" selection-end="1279" vertical-scroll-proportion="0.66170216" vertical-offset="29" max-vertical-offset="640">
+        <state line="24" column="16" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="760">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="36" selection-start="268" selection-end="268" vertical-scroll-proportion="0.15779093" vertical-offset="0" max-vertical-offset="507">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="42" selection-start="638" selection-end="638" vertical-scroll-proportion="-1.9230769" vertical-offset="1315" max-vertical-offset="2800">
           <folding />
         </state>
       </provider>
