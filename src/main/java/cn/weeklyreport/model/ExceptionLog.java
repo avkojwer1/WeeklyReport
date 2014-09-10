@@ -5,7 +5,7 @@ import javax.persistence.*;
 /**
  * Created by greg.chen on 14-9-3.
  */
-@Entity(name="ExceptionLog")
+
 public class ExceptionLog {
 
     public Long getId() {
@@ -16,8 +16,6 @@ public class ExceptionLog {
         this.id = id;
     }
 
-    @Id
-    @Column(name = "ExceptionLogId")
     private Long id;
 
     public String getModuleName() {
@@ -36,9 +34,8 @@ public class ExceptionLog {
         this.hostName = hostName;
     }
 
-    @Basic
     private String moduleName;
-    @Basic
+
     private String hostName;
 
 
