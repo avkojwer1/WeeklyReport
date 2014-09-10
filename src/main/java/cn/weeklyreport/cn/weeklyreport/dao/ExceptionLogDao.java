@@ -10,9 +10,6 @@ import javax.persistence.PersistenceContext;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 
-import org.springframework.orm.jpa.JpaTransactionManager;
-
-
 /**
  * Created by greg.chen on 14-9-3.
  */
