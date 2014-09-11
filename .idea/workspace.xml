@@ -2,71 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="592bc212-665b-41d4-8cc1-69c2c6f312ac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/weeklyreport/config/AppConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_7_0_54.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_7_0_54.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_logging_juli_7_0_54.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_1_GA.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_log4j_over_slf4j_1_7_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_1_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_1_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_1_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_1_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_1_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_1_1_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_13.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/weeklyreport/config/WebAppInitializer.java" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__antlr_antlr_2_7_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__asm_asm_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__cglib_cglib_2_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__commons_collections_commons_collections_3_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__javassist_javassist_3_12_0_GA.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__javax_transaction_jta_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_aspectj_aspectjrt_1_6_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_hibernate_hibernate_commons_annotations_3_2_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_hibernate_hibernate_entitymanager_3_6_10_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_hibernate_javax_persistence_hibernate_jpa_2_0_api_1_0_0_Final.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_json_json_20080701.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_slf4j_slf4j_log4j12_1_7_2.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_data_spring_data_commons_core_1_4_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_data_spring_data_jpa_1_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_spring_core_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_spring_jdbc_3_1_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_spring_tx_3_1_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_spring_web_4_0_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\src\main\java\cn\weeklyreport\cn\weeklyreport\dao\ExceptionLogDao.java" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\src\main\resources\META-INF\persistence.xml" afterPath="" />
-      <change type="DELETED" beforePath="F:\Java\MyGitProject\WeeklyReport\src\main\webapp\WEB-INF\mvc-dispatcher-servlet.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_0_0_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/weeklyreport/model/ExceptionLog.java" afterPath="$PROJECT_DIR$/src/main/java/cn/weeklyreport/model/ExceptionLog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/weeklyreport/controller/ExceptionLogController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/weeklyreport/controller/ExceptionLogController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cn/test/weeklyreport/ExceptionLogDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/cn/test/weeklyreport/ExceptionLogDaoTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WeeklyReport.iml" afterPath="$PROJECT_DIR$/WeeklyReport.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/WeeklyReport_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/WeeklyReport_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_hibernate_hibernate_core_3_6_10_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_0_3_Final.xml" />
-      <change type="MOVED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_slf4j_jcl_over_slf4j_1_6_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_7.xml" />
-      <change type="MOVED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" />
-      <change type="MOVED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_spring_aop_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_spring_beans_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_spring_context_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_0_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_spring_expression_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_0_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_spring_orm_3_1_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_spring_test_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="F:\Java\MyGitProject\WeeklyReport\.idea\libraries\Maven__org_springframework_spring_webmvc_4_0_0_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_5_RELEASE.xml" />
-      <change type="MOVED" beforePath="F:\Java\MyGitProject\WeeklyReport\src\main\webapp\WEB-INF\pages\hello.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/pages/hello.jsp" />
     </list>
     <ignored path="WeeklyReport.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,121 +73,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom - Copy.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom - Copy.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="55" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2620">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1960">
-              <folding>
-                <marker date="1410334988929" expanded="true" signature="1126:1277" placeholder="..." />
-                <marker date="1410334988929" expanded="true" signature="1299:1486" placeholder="..." />
-                <marker date="1410334988929" expanded="true" signature="1509:1680" placeholder="..." />
-                <marker date="1410334988929" expanded="true" signature="1859:2017" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionLogDaoTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cn/test/weeklyreport/ExceptionLogDaoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="540">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/config/AppConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="34" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="660">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WebAppInitializer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/config/WebAppInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="600">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="10" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="25" column="44" selection-start="954" selection-end="954" vertical-scroll-proportion="0.34557235" vertical-offset="340" max-vertical-offset="2100">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionLog.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/model/ExceptionLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-              <folding>
-                <element signature="e#158#159#0" expanded="false" />
-                <element signature="e#183#184#0" expanded="false" />
-                <element signature="e#217#218#0" expanded="false" />
-                <element signature="e#245#246#0" expanded="false" />
-                <element signature="e#304#305#0" expanded="false" />
-                <element signature="e#337#338#0" expanded="false" />
-                <element signature="e#389#390#0" expanded="false" />
-                <element signature="e#433#434#0" expanded="false" />
-                <element signature="e#468#469#0" expanded="false" />
-                <element signature="e#499#500#0" expanded="false" />
-                <element signature="e#547#548#0" expanded="false" />
-                <element signature="e#587#588#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppTests.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="25" selection-start="0" selection-end="1525" vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="900">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExceptionLogController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/controller/ExceptionLogController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="14" selection-start="735" selection-end="735" vertical-scroll-proportion="0.7289294" vertical-offset="180" max-vertical-offset="720">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#613#627#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="23" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -296,15 +129,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/weeklyreport/cn/weeklyreport/dao/ExceptionLogDao.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cn/test/weeklyreport/ExceptionLogDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/weeklyreport/model/ExceptionLog.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/weeklyreport/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/weeklyreport/config/WebAppInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/weeklyreport/controller/ExceptionLogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/weeklyreport/model/ExceptionLog.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java" />
       </list>
     </option>
   </component>
@@ -388,9 +221,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="40" />
-    <option name="width" value="1440" />
-    <option name="height" value="860" />
+    <option name="x" value="-8" />
+    <option name="y" value="32" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -690,7 +524,7 @@
       <recent name="F:\Java\WeeklyReport\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.41">
+  <component name="RunManager" selected="JUnit.AppTests.simple">
     <configuration default="false" name="AppTests.simple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1124,8 +958,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ExceptionLogDaoTest.countTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AppTests.simple" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests.simple" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExceptionLogDaoTest.countTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1159,15 +993,15 @@
       <workItem from="1409648794635" duration="4919000" />
       <workItem from="1409722040099" duration="537000" />
       <workItem from="1409722595543" duration="9856000" />
-      <workItem from="1409816590105" duration="16450000" />
+      <workItem from="1409816590105" duration="19684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31762000" />
+    <option name="totallyTimeSpent" value="34996000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="40" width="1440" height="860" extended-state="0" />
+    <frame x="-8" y="32" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1183,8 +1017,8 @@
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21769662" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3537234" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21527778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34635416" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1195,7 +1029,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24578652" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24305555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1358,6 +1192,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/controller/ExceptionLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="64" selection-start="630" selection-end="630" vertical-scroll-proportion="0.5462185" vertical-offset="180" max-vertical-offset="720">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#613#627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom - Copy.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="55" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2620">
@@ -1365,95 +1216,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/model/ExceptionLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="1960">
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
           <folding>
-            <marker date="1410334988929" expanded="true" signature="1126:1277" placeholder="..." />
-            <marker date="1410334988929" expanded="true" signature="1299:1486" placeholder="..." />
-            <marker date="1410334988929" expanded="true" signature="1509:1680" placeholder="..." />
-            <marker date="1410334988929" expanded="true" signature="1859:2017" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/cn/test/weeklyreport/ExceptionLogDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="540">
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#129#130#0" expanded="false" />
+            <element signature="e#154#155#0" expanded="false" />
+            <element signature="e#188#189#0" expanded="false" />
+            <element signature="e#216#217#0" expanded="false" />
+            <element signature="e#275#276#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#360#361#0" expanded="false" />
+            <element signature="e#404#405#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#470#471#0" expanded="false" />
+            <element signature="e#518#519#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="6" column="10" selection-start="287" selection-end="287" vertical-scroll-proportion="0.25210086" vertical-offset="0" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/config/WebAppInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="25" selection-start="0" selection-end="1525" vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/model/ExceptionLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+        <state line="21" column="36" selection-start="933" selection-end="933" vertical-scroll-proportion="0.6040724" vertical-offset="153" max-vertical-offset="600">
           <folding>
-            <element signature="e#158#159#0" expanded="false" />
-            <element signature="e#183#184#0" expanded="false" />
-            <element signature="e#217#218#0" expanded="false" />
-            <element signature="e#245#246#0" expanded="false" />
-            <element signature="e#304#305#0" expanded="false" />
-            <element signature="e#337#338#0" expanded="false" />
-            <element signature="e#389#390#0" expanded="false" />
-            <element signature="e#433#434#0" expanded="false" />
-            <element signature="e#468#469#0" expanded="false" />
-            <element signature="e#499#500#0" expanded="false" />
-            <element signature="e#547#548#0" expanded="false" />
-            <element signature="e#587#588#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/config/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="34" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="660">
+        <state line="20" column="34" selection-start="698" selection-end="698" vertical-scroll-proportion="0.42857143" vertical-offset="205" max-vertical-offset="660">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/config/WebAppInitializer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.0.0.RELEASE/spring-test-4.0.0.RELEASE.jar!/org/springframework/test/context/ContextConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="600">
+        <state line="10" column="18" selection-start="393" selection-end="393" vertical-scroll-proportion="0.061643835" vertical-offset="153" max-vertical-offset="620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/springapp/mvc/AppTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="20" selection-start="1293" selection-end="1299" vertical-scroll-proportion="0.6197479" vertical-offset="385" max-vertical-offset="920">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/controller/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/test/weeklyreport/ExceptionLogDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="23" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state line="8" column="34" selection-start="187" selection-end="187" vertical-scroll-proportion="0.3529412" vertical-offset="4" max-vertical-offset="540">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/weeklyreport/controller/ExceptionLogController.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="14" selection-start="735" selection-end="735" vertical-scroll-proportion="0.7289294" vertical-offset="180" max-vertical-offset="720">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#613#627#0" expanded="true" />
-          </folding>
+        <state line="25" column="44" selection-start="954" selection-end="954" vertical-scroll-proportion="0.34557235" vertical-offset="340" max-vertical-offset="2100">
+          <folding />
         </state>
       </provider>
     </entry>

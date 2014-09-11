@@ -1,7 +1,5 @@
 package cn.weeklyreport.model;
 
-import javax.persistence.*;
-
 /**
  * Created by greg.chen on 14-9-3.
  */

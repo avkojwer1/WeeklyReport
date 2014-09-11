@@ -39,6 +39,7 @@
           <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.0.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.0.5.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-test:4.0.0.RELEASE" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
           <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.5" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
