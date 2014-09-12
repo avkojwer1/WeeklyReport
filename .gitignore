@@ -13,10 +13,11 @@ hs_err_pid*
 
 
 # Intellij
-.idea/
+/.idea
 *.iml
 *.iws
 
 # Maven
 log/
 target/
+
