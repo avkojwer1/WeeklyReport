@@ -4,4 +4,10 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
 
+
+    <mappers>
+        <!-- 映射文件的位置 -->
+        <mapper resource="mapper/ExceptionLog.xml" />
+
+    </mappers>
 </configuration>

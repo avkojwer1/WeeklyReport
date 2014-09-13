@@ -1,6 +1,8 @@
 package cn.weeklyreport.controller;
 
-import cn.weeklyreport.model.ExceptionLog;
+import cn.weeklyreport.domain.ExceptionLog;
+import org.apache.ibatis.session.SqlSession;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -17,6 +19,9 @@ import java.util.List;
 public class ExceptionLogController {
 
 
+    @Autowired(required = true)
+    protected SqlSession sqlSessionTemplate;
+
     @RequestMapping("/ExceptionLog")
     @ResponseBody
     public List<ExceptionLog> getList(){
@@ -24,6 +29,9 @@ public class ExceptionLogController {
         ExceptionLog log = new ExceptionLog();
         log.setHostName("api.suryani.cn");
         list.add(log);
+
+        ExceptionLog exceptionLog = sqlSessionTemplate.selectOne("selectOneExceptionLog");
+        list.add(exceptionLog);
         return list;
     }
 

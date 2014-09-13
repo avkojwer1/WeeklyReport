@@ -1,4 +1,4 @@
-package cn.weeklyreport.model;
+package cn.weeklyreport.domain;
 
 /**
  * Created by greg.chen on 14-9-3.

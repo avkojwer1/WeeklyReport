@@ -21,10 +21,16 @@
         <mybatis-spring-version>1.2.2</mybatis-spring-version>
         <mybatis-ehcache-version>1.0.0</mybatis-ehcache-version>
         <ehcache-version>2.6.8</ehcache-version>
+        <mysql-connector-version>5.1.29</mysql-connector-version>
     </properties>
 
 
     <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -138,9 +144,18 @@
             <scope>runtime</scope>
         </dependency>
 
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib-nodep</artifactId>
+            <version>3.1</version>
+        </dependency>
     </dependencies>
-
-
 
     <build>
         <finalName>WeeklyReport</finalName>
