@@ -22,6 +22,7 @@
         <mybatis-ehcache-version>1.0.0</mybatis-ehcache-version>
         <ehcache-version>2.6.8</ehcache-version>
         <mysql-connector-version>5.1.29</mysql-connector-version>
+        <aspectj-version>1.7.4</aspectj-version>
     </properties>
 
 
@@ -48,6 +49,19 @@
             <artifactId>spring-test</artifactId>
             <version>4.0.0.RELEASE</version>
         </dependency>
+
+        <!-- Aspectj -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>${aspectj-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectj-version}</version>
+        </dependency>
+
 
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>

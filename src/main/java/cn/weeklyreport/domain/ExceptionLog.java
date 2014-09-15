@@ -36,5 +36,12 @@ public class ExceptionLog {
 
     private String hostName;
 
-
+    @Override
+    public String toString() {
+        return "ExceptionLog{" +
+                "id=" + id +
+                ", moduleName='" + moduleName + '\'' +
+                ", hostName='" + hostName + '\'' +
+                '}';
+    }
 }
