@@ -1,13 +1,12 @@
 package cn.test.weeklyreport.service;
 
 import cn.weeklyreport.domain.ExceptionLog;
-import cn.weeklyreport.service.ExceptionLogServcie;
+import cn.weeklyreport.service.ExceptionLogService;
 import junit.framework.Assert;
-import org.apache.ibatis.session.SqlSession;
+import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,12 +21,15 @@ import java.util.List;
 @Transactional
 public class ExceptionLogServiceTest {
 
+    private static Logger logger = Logger.getLogger(ExceptionLogServiceTest.class);
+
     @Autowired()
-    protected ExceptionLogServcie exceptionLogServcie;
+    protected ExceptionLogService exceptionLogService;
 
     @Test
     public void countTest(){
-        List<ExceptionLog> exceptionLog = exceptionLogServcie.queryList("selectOneExceptionLog", null);
+        List<ExceptionLog> exceptionLog = exceptionLogService.queryList(null);
+        logger.info(exceptionLog);
         Assert.assertTrue(exceptionLog.size() > 0);
     }
 

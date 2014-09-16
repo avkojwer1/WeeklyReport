@@ -2,8 +2,8 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="cn.weeklyreport.domain.ExceptionLog">
 
-    <select id="selectOneExceptionLog" resultType="cn.weeklyreport.domain.ExceptionLog">
-      select top 1 * from ExceptionLog
+    <select id="select" resultType="cn.weeklyreport.domain.ExceptionLog" parameterType="java.util.Map">
+       select top 10 * from ExceptionLog
     </select>
 
 </mapper>
