@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @RequestMapping("/")
 public class IndexController {
 	@RequestMapping(method = RequestMethod.GET)
-	public String printWelcome(ModelMap model) {
+	public String weeklyReport(ModelMap model) {
 		model.addAttribute("message", "Hello world!");
-		return "index";
+		return "MAPI";
 	}
 }

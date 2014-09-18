@@ -6,4 +6,35 @@
        select top 10 * from ExceptionLog
     </select>
 
+    <insert id="insert" parameterType="cn.weeklyreport.domain.ExceptionLog">
+        INSERT INTO dbo.ExceptionLog
+        ( ExceptionLogId ,
+          CreateDate ,
+          ModuleName ,
+          HostName ,
+          ExceptionSource ,
+          ExceptionType ,
+          ExceptionLogPath ,
+          ClientIp ,
+          UserAgent ,
+          Ticket ,
+          ExecutionTime ,
+          VisitorId
+        )
+        VALUES  (#{exceptionLogId} ,
+               '' ,
+                  #{moduleName} ,
+                  #{hostName}  ,
+                  #{exceptionSource},
+                  #{exceptionType} ,
+                  '' ,
+                  '' ,
+                  '' ,
+                  '' ,
+                  '' ,
+                  ''
+                )
+
+    </insert>
+
 </mapper>

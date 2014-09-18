@@ -1,5 +1,6 @@
 package cn.test.weeklyreport.service;
 
+import cn.weeklyreport.dao.utils.UUIDUtils;
 import cn.weeklyreport.domain.ExceptionLog;
 import cn.weeklyreport.service.ExceptionLogService;
 import junit.framework.Assert;
@@ -23,14 +24,25 @@ public class ExceptionLogServiceTest {
 
     private static Logger logger = Logger.getLogger(ExceptionLogServiceTest.class);
 
-    @Autowired()
+    @Autowired
     protected ExceptionLogService exceptionLogService;
 
     @Test
-    public void countTest(){
-        List<ExceptionLog> exceptionLog = exceptionLogService.queryList(null);
+    public void selectTest(){
+        List<ExceptionLog> exceptionLog = exceptionLogService.selectList(null);
         logger.info(exceptionLog);
         Assert.assertTrue(exceptionLog.size() > 0);
+    }
+
+    @Test
+    public void addTest(){
+        ExceptionLog exceptionLog = new ExceptionLog();
+        exceptionLog.setExceptionLogId(UUIDUtils.create());
+        exceptionLog.setHostName("test");
+        exceptionLog.setModuleName("test");
+        logger.info(exceptionLog);
+        int result = exceptionLogService.add(exceptionLog);
+        Assert.assertTrue(result > 0);
     }
 
 }

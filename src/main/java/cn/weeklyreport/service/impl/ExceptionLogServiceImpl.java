@@ -13,15 +13,50 @@ import java.util.Map;
  * Created by greg.chen on 14-9-12.
  */
 @Service
-public class ExceptionLogServiceImpl implements ExceptionLogService {
+public class ExceptionLogServiceImpl implements ExceptionLogService<ExceptionLog> {
 
     @Autowired
     private ExceptionLogDaoImpl exceptionLogDao;
 
     @Override
-    public List<ExceptionLog> queryList(Map<String, Object> query){
+    public int add(ExceptionLog entity) {
+        return exceptionLogDao.add(entity);
+    }
+
+    @Override
+    public List<ExceptionLog> selectList(Map<String, Object> query){
 
         return exceptionLogDao.selectList(null);
+    }
+
+    @Override
+    public ExceptionLog selectOne(Map<String, Object> query) {
+        return null;
+    }
+
+    @Override
+    public ExceptionLog selectById(String id) {
+        return null;
+    }
+
+    @Override
+    public int insert(ExceptionLog entity) {
+        return 0;
+    }
+
+    @Override
+    public int delete(Map<String, Object> query) {
+        return 0;
+    }
+
+    @Override
+    public int deleteById(String id) {
+        return 0;
+    }
+
+    @Override
+    public int update(ExceptionLog entity) {
+        return 0;
     }
 
 }

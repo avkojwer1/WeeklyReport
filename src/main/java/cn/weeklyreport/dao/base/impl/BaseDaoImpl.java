@@ -1,13 +1,12 @@
-package cn.weeklyreport.dao.impl;
+package cn.weeklyreport.dao.base.impl;
 
-import cn.weeklyreport.dao.BaseDao;
+import cn.weeklyreport.dao.base.BaseDao;
 import cn.weeklyreport.dao.constants.SqlId;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -38,16 +37,42 @@ public abstract class BaseDaoImpl<T> implements BaseDao<T> {
     }
 
     @Override
-    public int add(String key,T t) {
-        sqlSessionTemplate.insert(key, t);
-        return 0;
+    public int add(T entity) {
+        return sqlSessionTemplate.insert(getSqlName(SqlId.SQL_INSERT), entity);
     }
-
 
     @Override
     public List<T> selectList(Map<String, Object> query){
-
         return sqlSessionTemplate.selectList(getSqlName(SqlId.SQL_SELECT), query);
     }
 
+    @Override
+    public T selectOne(Map<String, Object> query) {
+        return null;
+    }
+
+    @Override
+    public T selectById(String id) {
+        return null;
+    }
+
+    @Override
+    public int insert(T entity) {
+        return 0;
+    }
+
+    @Override
+    public int delete(Map<String, Object> query) {
+        return 0;
+    }
+
+    @Override
+    public int deleteById(String id) {
+        return 0;
+    }
+
+    @Override
+    public int update(T entity) {
+        return 0;
+    }
 }
