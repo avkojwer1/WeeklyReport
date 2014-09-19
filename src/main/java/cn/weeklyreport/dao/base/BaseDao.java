@@ -9,8 +9,6 @@ import java.util.Map;
  */
 public interface BaseDao<T> {
 
-    public int add(T entity);
-
     public List<T> selectList(Map<String, Object> query);
 
     public T selectOne(Map<String, Object> query);

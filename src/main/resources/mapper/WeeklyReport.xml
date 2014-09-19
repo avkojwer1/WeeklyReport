@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.weeklyreport.domain.WeeklyReport">
+
+    <select id="select" resultType="cn.weeklyreport.domain.WeeklyReport" parameterType="java.util.Map">
+       Select top 10 * from WeeklyReport
+    </select>
+
+    <insert id="insert" parameterType="cn.weeklyreport.domain.WeeklyReport">
+
+        INSERT INTO dbo.WeeklyReport
+                ( Id ,
+                  RequestLogFrom ,
+                  RequestLogTo ,
+                  ExceptionLogFrom ,
+                  ExceptionLogTo ,
+                  Type ,
+                  Description ,
+                  CreateDate
+                )
+        VALUES  (   #{id} ,
+                 #{requestLogFrom}  ,
+                 #{requestLogTo} ,
+                 #{exceptionLogFrom}  ,
+                 #{exceptionLogTo} ,
+                   #{type} , ,
+                 #{description},
+                  #{createDate}
+                )
+
+    </insert>
+
+</mapper>

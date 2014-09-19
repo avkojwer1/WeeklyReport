@@ -41,7 +41,8 @@ public class ExceptionLogServiceTest {
         exceptionLog.setHostName("test");
         exceptionLog.setModuleName("test");
         logger.info(exceptionLog);
-        int result = exceptionLogService.add(exceptionLog);
+        int result = exceptionLogService.insert(exceptionLog);
+
         Assert.assertTrue(result > 0);
     }
 

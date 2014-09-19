@@ -1,6 +1,8 @@
 package cn.weeklyreport.service.base.impl;
 
+import cn.weeklyreport.dao.base.BaseDao;
 import cn.weeklyreport.service.base.BaseService;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Map;
@@ -8,44 +10,47 @@ import java.util.Map;
 /**
  * Created by greg.chen on 14-9-17.
  */
-public class BaseServiceImpl<T> implements BaseService<T> {
-    @Override
-    public int add(T entity) {
-        return 0;
-    }
+public abstract class BaseServiceImpl<T> implements BaseService<T> {
+
+    /**
+     * 获取基础数据库操作类
+     *
+     * @return
+     */
+    protected abstract BaseDao<T> getBaseDao();
 
     @Override
     public List<T> selectList(Map<String, Object> query) {
-        return null;
+        return getBaseDao().selectList(query);
     }
 
     @Override
     public T selectOne(Map<String, Object> query) {
-        return null;
+        return getBaseDao().selectOne(query);
     }
 
     @Override
     public T selectById(String id) {
-        return null;
+        return getBaseDao().selectById(id);
     }
 
     @Override
     public int insert(T entity) {
-        return 0;
+        return getBaseDao().insert(entity);
     }
 
     @Override
     public int delete(Map<String, Object> query) {
-        return 0;
+        return getBaseDao().delete(query);
     }
 
     @Override
     public int deleteById(String id) {
-        return 0;
+        return getBaseDao().deleteById(id);
     }
 
     @Override
     public int update(T entity) {
-        return 0;
+        return getBaseDao().update(entity);
     }
 }

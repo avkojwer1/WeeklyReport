@@ -21,7 +21,7 @@ public class ExceptionLog {
     }
 
     public void setExceptionLogId(String exceptionLogId) {
-        exceptionLogId = exceptionLogId;
+        this.exceptionLogId = exceptionLogId;
     }
 
     public String getExceptionSource() {

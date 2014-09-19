@@ -7,8 +7,6 @@ import java.util.Map;
  * Created by greg.chen on 14-9-17.
  */
 public interface BaseService<T> {
-    public int add(T entity);
-
     public List<T> selectList(Map<String, Object> query);
 
     public T selectOne(Map<String, Object> query);

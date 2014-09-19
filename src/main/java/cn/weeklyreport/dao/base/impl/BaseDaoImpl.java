@@ -37,11 +37,6 @@ public abstract class BaseDaoImpl<T> implements BaseDao<T> {
     }
 
     @Override
-    public int add(T entity) {
-        return sqlSessionTemplate.insert(getSqlName(SqlId.SQL_INSERT), entity);
-    }
-
-    @Override
     public List<T> selectList(Map<String, Object> query){
         return sqlSessionTemplate.selectList(getSqlName(SqlId.SQL_SELECT), query);
     }
@@ -58,7 +53,7 @@ public abstract class BaseDaoImpl<T> implements BaseDao<T> {
 
     @Override
     public int insert(T entity) {
-        return 0;
+        return sqlSessionTemplate.insert(getSqlName(SqlId.SQL_INSERT), entity);
     }
 
     @Override
