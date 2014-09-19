@@ -4,6 +4,7 @@ import cn.weeklyreport.dao.base.BaseDao;
 import cn.weeklyreport.dao.constants.SqlId;
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

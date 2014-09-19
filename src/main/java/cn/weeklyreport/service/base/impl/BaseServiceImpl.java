@@ -35,21 +35,25 @@ public abstract class BaseServiceImpl<T> implements BaseService<T> {
     }
 
     @Override
+    @Transactional
     public int insert(T entity) {
         return getBaseDao().insert(entity);
     }
 
     @Override
+    @Transactional
     public int delete(Map<String, Object> query) {
         return getBaseDao().delete(query);
     }
 
     @Override
+    @Transactional
     public int deleteById(String id) {
         return getBaseDao().deleteById(id);
     }
 
     @Override
+    @Transactional
     public int update(T entity) {
         return getBaseDao().update(entity);
     }

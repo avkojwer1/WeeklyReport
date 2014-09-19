@@ -1,5 +1,6 @@
 package cn.weeklyreport.service.impl;
 
+import cn.weeklyreport.dao.ExceptionLogDao;
 import cn.weeklyreport.dao.base.BaseDao;
 import cn.weeklyreport.dao.impl.ExceptionLogDaoImpl;
 import cn.weeklyreport.domain.ExceptionLog;
@@ -18,7 +19,7 @@ import java.util.Map;
 public class ExceptionLogServiceImpl extends BaseServiceImpl<ExceptionLog> implements ExceptionLogService<ExceptionLog> {
 
     @Autowired
-    private ExceptionLogDaoImpl exceptionLogDao;
+    private ExceptionLogDao exceptionLogDao;
 
     @Override
     protected BaseDao<ExceptionLog> getBaseDao() {
