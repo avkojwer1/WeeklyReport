@@ -8,6 +8,6 @@
     <mappers>
         <!-- 映射文件的位置 -->
         <mapper resource="mapper/ExceptionLog.xml" />
-
+        <mapper resource="mapper/WeeklyReport.xml" />
     </mappers>
 </configuration>

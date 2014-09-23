@@ -9,6 +9,8 @@
     <body>
         <%@ include file="./common/head.jsp"%>
 
+        ${list}
+
     </body>
 
 </html>

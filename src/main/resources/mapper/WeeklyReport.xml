@@ -3,7 +3,22 @@
 <mapper namespace="cn.weeklyreport.domain.WeeklyReport">
 
     <select id="select" resultType="cn.weeklyreport.domain.WeeklyReport" parameterType="java.util.Map">
-       Select top 10 * from WeeklyReport
+       Select * from WeeklyReport Where 1=1
+       <if test="requestLogFrom !=null">
+           and requestLogFrom >= #{requestLogFrom}
+       </if>
+        <if test="requestLogTo !=null">
+            <![CDATA[  and requestLogTo < #{requestLogTo}   ]]>
+        </if>
+        <if test="exceptionLogFrom !=null">
+            and exceptionLogFrom >= #{exceptionLogFrom}
+        </if>
+        <if test="exceptionLogTo !=null">
+            <![CDATA[    and exceptionLogTo < #{exceptionLogTo}  ]]>
+        </if>
+        <if test="type !=null">
+            and type = #{type}
+        </if>
     </select>
 
     <insert id="insert" parameterType="cn.weeklyreport.domain.WeeklyReport">
@@ -23,7 +38,7 @@
                  #{requestLogTo} ,
                  #{exceptionLogFrom}  ,
                  #{exceptionLogTo} ,
-                   #{type} , ,
+                   #{type} ,
                  #{description},
                   #{createDate}
                 )

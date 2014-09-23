@@ -5,7 +5,7 @@ package cn.weeklyreport.domain;
  */
 public class WeeklyReport {
 
-    private int Id;
+    private String Id;
     private String requestLogFrom;
     private String requestLogTo;
     private String exceptionLogFrom;
@@ -14,11 +14,11 @@ public class WeeklyReport {
     private String Description;
     private String CreateDate;
 
-    public int getId() {
+    public String getId() {
         return Id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         Id = id;
     }
 
@@ -69,6 +69,8 @@ public class WeeklyReport {
     public void setDescription(String description) {
         Description = description;
     }
+
+
 
     public String getCreateDate() {
         return CreateDate;

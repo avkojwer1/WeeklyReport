@@ -1,5 +1,6 @@
 package cn.test.weeklyreport.service;
 
+import cn.test.weeklyreport.service.base.BaseTest;
 import cn.weeklyreport.dao.utils.UUIDUtils;
 import cn.weeklyreport.domain.ExceptionLog;
 import cn.weeklyreport.service.ExceptionLogService;
@@ -17,10 +18,8 @@ import java.util.List;
 /**
  * Created by greg.chen on 14-9-3.
  */
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration("classpath:spring-config.xml")
-@Transactional
-public class ExceptionLogServiceTest {
+
+public class ExceptionLogServiceTest extends BaseTest {
 
     private static Logger logger = Logger.getLogger(ExceptionLogServiceTest.class);
 
