@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/mapi/mapi.css" type="text/css">
 </head>
     <body>
-    <%@ include file="./common/head.jsp"%>
+    <%@ include file="common/nav.jsp"%>
         <div class="container">
             <h4>Quidsi Mobile API IIS Log Analysis</h4>
             <p>Server: WebAPI1,WebAPI2,WebAPI3,WebAPI4</p>

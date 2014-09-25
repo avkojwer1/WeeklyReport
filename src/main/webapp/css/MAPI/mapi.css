@@ -1,3 +1,12 @@
 .rhead_to {
     margin-right: 17px;
 }
+
+.report_table{
+    table-layout:fixed;
+    font-size:14px;
+}
+
+.report_table td{
+    word-wrap:break-word;
+}

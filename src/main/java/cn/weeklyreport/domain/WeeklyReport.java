@@ -6,8 +6,18 @@ package cn.weeklyreport.domain;
 public class WeeklyReport {
 
     private String Id;
+    private String serverName;
     private String requestLogFrom;
     private String requestLogTo;
+
+    public String getServerName() {
+        return serverName;
+    }
+
+    public void setServerName(String serverName) {
+        this.serverName = serverName;
+    }
+
     private String exceptionLogFrom;
     private String exceptionLogTo;
     private String Type;
@@ -69,8 +79,6 @@ public class WeeklyReport {
     public void setDescription(String description) {
         Description = description;
     }
-
-
 
     public String getCreateDate() {
         return CreateDate;
