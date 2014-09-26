@@ -1,8 +1,8 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%@ include file="./common/common.jsp"%>
+<%@ include file="common/common_css.jsp"%>
 
 <!DOCTYPE html>
-<html  ng-app>
+<html  ng-app="weeklyReport">
 <head>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/mapi/mapi.css" type="text/css">
 </head>
@@ -10,44 +10,41 @@
         <%@ include file="common/nav.jsp"%>
 
         <div class="container">
-            <div class="row">
+
+            <div class="row" ng-controller="WeeklyReportController">
                 <table class="table report_table">
                     <thead>
                     <tr>
                         <th>ServerName</th>
                         <th>RequestLogFrom</th>
                         <th>RequestLogTo</th>
-                        <th>ExceptionLogFrom</th>
-                        <th>ExceptionLogTo</th>
+                        <th class="width160">ExceptionLogFrom</th>
+                        <th >ExceptionLogTo</th>
                         <th>CreateDate</th>
                         <th>Description</th>
                         <th>Action</th>
                     </tr>
                     </thead>
 
-                    <s:forEach var="item" items="${list}">
-                        <tr>
-                            <td>${item.getServerName()}</td>
-                            <td>${item.getRequestLogFrom()}</td>
-                            <td>${item.getRequestLogTo()}</td>
-                            <td>${item.getExceptionLogFrom()}</td>
-                            <td>${item.getExceptionLogTo()}</td>
-                            <td>${item.getCreateDate()}</td>
-                            <td>${item.description}</td>
-                            <td><a target="_blank" href="/report-detail/${item.id}"><img src="${pageContext.request.contextPath}/image/glyphicons_050_link.png" title="detail"></a></td>
-                        <tr/>
-                    </s:forEach>
+                    <tr ng-repeat="item in list">
+                        <td>{{item.serverName}}</td>
+                        <td>{{item.requestLogFrom}}</td>
+                        <td>{{item.requestLogTo}}</td>
+                        <td>{{item.exceptionLogFrom}}</td>
+                        <td>{{item.exceptionLogTo}}</td>
+                        <td>{{item.createDate}}</td>
+                        <td>{{item.description}}</td>
+                        <td><a target="_blank" href="/report-detail/{{item.id}}"><img src="${pageContext.request.contextPath}/image/glyphicons_050_link.png" title="detail"></a></td>
+                    <tr/>
                 </table>
-            </div>
-
-            <div class="row">
-                Hello {{'World'}}!
-
             </div>
 
         </div>
 
 
+        <%@ include file="common/common_js.jsp"%>
+        <script language="javascript" src="${pageContext.request.contextPath}/js/service/weeklyReportService.js"></script>
+        <script language="javascript" src="${pageContext.request.contextPath}/js/controller/weeklyReportController.js"></script>
 
     </body>
 

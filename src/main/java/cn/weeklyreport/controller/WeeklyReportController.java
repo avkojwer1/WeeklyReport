@@ -30,8 +30,6 @@ public class WeeklyReportController {
         return list;
     }
 
-
-
     @RequestMapping(value = "/report-detail/{id}", method = RequestMethod.GET)
     public String WeeklyReportDetail(@PathVariable String id) {
 

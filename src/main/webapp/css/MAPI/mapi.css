@@ -10,3 +10,7 @@
 .report_table td{
     word-wrap:break-word;
 }
+
+.report_table th{
+    word-wrap:break-word;
+}
