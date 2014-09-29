@@ -12,6 +12,17 @@
         <div class="container">
 
             <div class="row" ng-controller="WeeklyReportController">
+                <form>
+                    <label>ServerName</label>
+                    <input type="text" name="serverName" ng-model="weeklyReport.serverName">
+                    <label>RequestLogFrom</label>
+                    <input type="text" name="requestLogFrom" ng-model="weeklyReport.requestLogFrom">
+                    <label>RequestLogTo</label>
+                    <input type="text" name="requestLogTo" ng-model="weeklyReport.requestLogTo">
+
+                    <input type="button" value="Save" ng-click="saveWeeklyReport();">
+                </form>
+
                 <table class="table report_table">
                     <thead>
                     <tr>

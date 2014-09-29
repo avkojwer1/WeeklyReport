@@ -8,4 +8,8 @@ module.service('WeekReportService',['$http',function($http){
         //只返回request对象
         return $http.get('/report-list');
     }
+
+    this.save = function(weeklyReport){
+
+    }
 }]);
