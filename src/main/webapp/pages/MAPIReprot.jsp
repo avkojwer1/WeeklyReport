@@ -13,14 +13,31 @@
 
             <div class="row" ng-controller="WeeklyReportController">
                 <form>
-                    <label>ServerName</label>
-                    <input type="text" name="serverName" ng-model="weeklyReport.serverName">
-                    <label>RequestLogFrom</label>
-                    <input type="text" name="requestLogFrom" ng-model="weeklyReport.requestLogFrom">
-                    <label>RequestLogTo</label>
-                    <input type="text" name="requestLogTo" ng-model="weeklyReport.requestLogTo">
-
-                    <input type="button" value="Save" ng-click="saveWeeklyReport();">
+                    <div class="form-group">
+                        <label>ServerName</label>
+                        <p class="form-control-static"  ng-init="weeklyReport.serverName = 'MAPI1, MAPI2, MAPI3, MAPI4'">{{weeklyReport.serverName}}</p>
+                    </div>
+                    <div class="form-group">
+                        <label>RequestLogFrom</label>
+                        <input type="text" id="requestLogFrom" class="form-control" placeholder="yyyy/mm/dd" ng-model="weeklyReport.requestLogFrom"/>
+                    </div>
+                    <div class="form-group">
+                        <label>RequestLogTo</label>
+                        <input type="text" id="requestLogTo" class="form-control" placeholder="yyyy/mm/dd" ng-model="weeklyReport.requestLogTo"/>
+                    </div>
+                    <div class="form-group">
+                        <label>ExceptionLogFrom</label>
+                        <input type="text" id="exceptionLogFrom" class="form-control" placeholder="yyyy/mm/dd" ng-model="weeklyReport.exceptionLogFrom"/>
+                    </div>
+                    <div class="form-group">
+                        <label>ExceptionLogTo</label>
+                        <input type="text" id="exceptionLogTo" class="form-control" placeholder="yyyy/mm/dd" ng-model="weeklyReport.exceptionLogTo" />
+                    </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea type="text" id="description" class="form-control"  ng-model="weeklyReport.description" class="col-xs-4"></textarea>
+                    </div>
+                    <input type="button" value="Save" class="btn btn-primary" ng-click="saveWeeklyReport();">
                 </form>
 
                 <table class="table report_table">

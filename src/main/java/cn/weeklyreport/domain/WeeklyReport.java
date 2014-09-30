@@ -7,8 +7,6 @@ public class WeeklyReport {
 
     private String Id;
     private String serverName;
-    private String requestLogFrom;
-    private String requestLogTo;
 
     public String getServerName() {
         return serverName;
@@ -17,6 +15,10 @@ public class WeeklyReport {
     public void setServerName(String serverName) {
         this.serverName = serverName;
     }
+
+    private String requestLogFrom;
+    private String requestLogTo;
+
 
     private String exceptionLogFrom;
     private String exceptionLogTo;

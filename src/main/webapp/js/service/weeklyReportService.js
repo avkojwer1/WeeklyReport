@@ -1,7 +1,7 @@
 /**
  * Created by greg.chen on 14-9-26.
  */
-module.service('WeekReportService',['$http',function($http){
+module.service('WeeklyReportService',['$http',function($http){
     var list;
 
     this.getList = function(){
@@ -10,6 +10,6 @@ module.service('WeekReportService',['$http',function($http){
     }
 
     this.save = function(weeklyReport){
-
+        return $http.post('/report/add', weeklyReport);
     }
 }]);
