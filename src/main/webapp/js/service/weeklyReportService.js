@@ -12,4 +12,9 @@ module.service('WeeklyReportService',['$http',function($http){
     this.save = function(weeklyReport){
         return $http.post('/report/add', weeklyReport);
     }
+
+    this.delete = function(id){
+        return $http.delete('/report/delete/'+id);
+    }
+
 }]);

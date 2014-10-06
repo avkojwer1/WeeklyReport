@@ -1,5 +1,7 @@
 package cn.weeklyreport.domain;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 /**
  * Created by greg.chen on 14-9-19.
  */
@@ -16,9 +18,9 @@ public class WeeklyReport {
         this.serverName = serverName;
     }
 
+
     private String requestLogFrom;
     private String requestLogTo;
-
 
     private String exceptionLogFrom;
     private String exceptionLogTo;

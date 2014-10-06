@@ -33,6 +33,11 @@ public abstract class BaseDaoImpl<T> implements BaseDao<T> {
         this.sqlNamespace = this.classt.getName();
     }
 
+    /**
+     * 将SqlMapping命名空间与给定的SqlMapping名组合在一起。
+     * @param sqlName SqlMapping名
+     * @return 组合了SqlMapping命名空间后的完整SqlMapping名
+     */
     protected String getSqlName(String sqlName) {
         return sqlNamespace + SqlId.SQLNAME_SEPARATOR + sqlName;
     }
@@ -49,7 +54,7 @@ public abstract class BaseDaoImpl<T> implements BaseDao<T> {
 
     @Override
     public T selectById(String id) {
-        return null;
+        return (T)sqlSessionTemplate.selectOne(getSqlName(SqlId.SQL_SELECT_BY_ID), id);
     }
 
     @Override
@@ -64,7 +69,7 @@ public abstract class BaseDaoImpl<T> implements BaseDao<T> {
 
     @Override
     public int deleteById(String id) {
-        return 0;
+        return  sqlSessionTemplate.insert(getSqlName(SqlId.SQL_DELETE_BY_ID), id);
     }
 
     @Override

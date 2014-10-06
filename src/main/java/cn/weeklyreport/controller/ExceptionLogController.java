@@ -46,6 +46,5 @@ public class ExceptionLogController {
         log.setHostName("api.suryani.cn");
         log.setExceptionLogId(UUIDUtils.create());
          exceptionLogService.insert(log);
-
     }
 }

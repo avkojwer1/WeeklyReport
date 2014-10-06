@@ -23,6 +23,11 @@
         order by CreateDate desc
     </select>
 
+
+    <select id="selectById" resultType="cn.weeklyreport.domain.WeeklyReport" parameterType="java.lang.String">
+         Select * from WeeklyReport Where id=#{id}
+    </select>
+
     <insert id="insert" parameterType="cn.weeklyreport.domain.WeeklyReport">
 
         INSERT INTO dbo.WeeklyReport
@@ -33,8 +38,7 @@
                   ExceptionLogFrom ,
                   ExceptionLogTo ,
                   Type ,
-                  Description ,
-                  CreateDate
+                  Description
                 )
         VALUES  (   #{id} ,
                  #{serverName},
@@ -43,10 +47,12 @@
                  #{exceptionLogFrom}  ,
                  #{exceptionLogTo} ,
                    #{type} ,
-                 #{description},
-                  #{createDate}
+                 #{description}
                 )
 
     </insert>
 
+    <delete id="deleteById" parameterType="java.lang.String">
+        delete  from dbo.WeeklyReport where id=#{id}
+    </delete>
 </mapper>

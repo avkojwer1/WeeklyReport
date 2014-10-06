@@ -37,7 +37,7 @@
                         <label>Description</label>
                         <textarea type="text" id="description" class="form-control"  ng-model="weeklyReport.description" class="col-xs-4"></textarea>
                     </div>
-                    <input type="button" value="Save" class="btn btn-primary" ng-click="saveWeeklyReport();">
+                    <input type="button" value="Save" class="btn btn-primary" ng-click="save();">
                 </form>
 
                 <table class="table report_table">
@@ -62,7 +62,10 @@
                         <td>{{item.exceptionLogTo}}</td>
                         <td>{{item.createDate}}</td>
                         <td>{{item.description}}</td>
-                        <td><a target="_blank" href="/report-detail/{{item.id}}"><img src="${pageContext.request.contextPath}/image/glyphicons_050_link.png" title="detail"></a></td>
+                        <td>
+                            <a target="_blank" href="/report-detail/{{item.id}}"><img src="${pageContext.request.contextPath}/image/glyphicons_050_link.png" title="detail"></a>
+                            <img src="${pageContext.request.contextPath}/image/glyphicons_256_delete.png" title="delete"  ng-click="delete(item.id);">
+                        </td>
                     <tr/>
                 </table>
             </div>
