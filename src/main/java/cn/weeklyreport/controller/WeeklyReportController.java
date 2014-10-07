@@ -3,6 +3,7 @@ package cn.weeklyreport.controller;
 import cn.weeklyreport.dao.utils.UUIDUtils;
 import cn.weeklyreport.domain.WeeklyReport;
 import cn.weeklyreport.exception.InvalidRequestIdException;
+import cn.weeklyreport.exception.ResourceNotFoundException;
 import cn.weeklyreport.service.WeeklyReportService;
 import com.fasterxml.jackson.databind.util.BeanUtil;
 import org.springframework.beans.BeanUtils;
@@ -59,9 +60,15 @@ public class WeeklyReportController {
         if(id.length() < 32)
             throw new InvalidRequestIdException("Invalid request id");
 
+        Object o = weeklyReportService.selectById(id);
+
+        if(o == null){
+            throw new ResourceNotFoundException("Invalid request id");
+        }
+
         weeklyReportService.deleteById(id);
 
-        return null;
+        return "Success";
     }
 
 

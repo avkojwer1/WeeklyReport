@@ -1,6 +1,7 @@
 package cn.weeklyreport.handler;
 
 import cn.weeklyreport.exception.InvalidRequestIdException;
+import cn.weeklyreport.exception.ResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -19,6 +20,14 @@ public class RestErrorHandler {
     public String handleInvalidRequestError(InvalidRequestIdException ex) {
         return ex.getMessage();
     }
+
+    @ExceptionHandler(ResourceNotFoundException.class)
+    @ResponseStatus(value = HttpStatus.NOT_FOUND)
+    @ResponseBody
+    public String handleResourceNotFoundException(ResourceNotFoundException ex){
+        return ex.getMessage();
+    }
+
 
     @ExceptionHandler(RuntimeException.class)
     @ResponseStatus(value = HttpStatus.INTERNAL_SERVER_ERROR)

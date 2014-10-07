@@ -1,9 +1,9 @@
-package cn.test.weeklyreport.service;
+package cn.weeklyreport.test.service;
 
-import cn.test.weeklyreport.service.base.BaseTest;
 import cn.weeklyreport.dao.utils.UUIDUtils;
 import cn.weeklyreport.domain.WeeklyReport;
 import cn.weeklyreport.service.WeeklyReportService;
+import cn.weeklyreport.test.base.BaseTest;
 import junit.framework.Assert;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
